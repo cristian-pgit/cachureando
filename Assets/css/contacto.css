@@ -1,0 +1,56 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(/Assets/img/demo2.png);
+    background-size: 100vw;
+    background-repeat:repeat;
+    
+}
+
+li{
+    font-family: 'Roboto', sans-serif;
+    color: orange;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+li{
+    color: orange;
+}
+a{
+    color: orange;
+    font-family: 'Roboto', sans-serif;
+}
+a:hover{
+    color: red;
+}
+
+h2{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: darkorange;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    padding-left: 3rem;
+}
+
+form{
+    padding-left: 3rem;
+}
+
+label{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    color: orange;
+}
+
+#submit_button{
+    padding: 0.3rem;
+    border-radius: 5px;
+    border-color: darkorange;
+    background-color: orange;
+}
