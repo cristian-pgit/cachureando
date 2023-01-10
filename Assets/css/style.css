@@ -6,8 +6,7 @@
 body{
     background-image: url(/Assets/img/demo2.png);
     background-size: 100%;
-    background-repeat:no-repeatS;
-    
+     
 }
 
 li{
@@ -30,13 +29,6 @@ a:hover{
 h2{
     font-family: 'Roboto', sans-serif;
 }
-
-.Galeria{
-    height: 35%;
-    width: 35%;
-    margin: 0.4rem;
-}
-
 
 p{
     font-family: 'Roboto', sans-serif;
@@ -67,20 +59,38 @@ section{
     padding: 1rem;
 }
 
+.Galeria{
+    height: 35%;
+    width: 35%;
+    margin: 0.4rem;
+}
+
 #p-id{
     text-align: justify;
     width: 92%;
 }
 
-.gallery-c{
-    display: flex;
-    flex-wrap: wrap;
-}
 #igaleria{
-    font-size: 2vw;
-    display: flex;
-    
+    font-size: 2rem;
 }
+
+.carousel-text{
+    color: #3a3333;
+    text-decoration-color: aqua;
+}
+
+.carousel-item{
+    width: 80%;
+    justify-content: center;
+}
+
+.carousel-control-prev {
+    filter: invert(108%);
+}
+.carousel-control-next {
+    filter: invert(108%);
+}
+
 aside{
     width: 100;
     height: 30vh;
@@ -90,11 +100,10 @@ aside{
     font-family: 'Roboto', sans-serif;
 }
 
-#comment-box, #post {
-    /* border: none; */
+/* #comment-box, #post {
     border-radius: 5px;
     padding: 0.5rem;
-}
+} */
 #post:hover{
     background-color: deeppink;
 }
@@ -120,13 +129,13 @@ footer{
         text-align: justify;
     }
     
-    aside{
+    /* aside{
         justify-self: center;
         width: 100%;
         padding-left: 2rem;
         font-size: 1.5rem;
         font-family: 'Roboto', sans-serif;
-    }
+    } */
 
     #title{
         margin-top: 0px;
@@ -161,7 +170,9 @@ footer{
     #mainContainer{
         width: 100vw;
         height: auto;
-        display: flex;
+        
+        display: grid;
+        grid-template-columns: 1fr 1fr;
     }
     section{
         width: 70vw;       
