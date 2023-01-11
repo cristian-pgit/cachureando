@@ -6,16 +6,17 @@
 body{
     background-image: url(/Assets/img/demo2.png);
     background-size: 100%;
+    
      
 }
 
-li{
+.nav-item{
     font-family: 'Roboto', sans-serif;
     color: orange;
     font-size: 1.3rem;
     font-weight: 300;
 }
-li{
+.nav-item:before{
     color: orange;
 }
 a{
@@ -47,7 +48,7 @@ p{
 
 #about{
     padding-top: 1rem;
-    width: 100vw;
+    width: 100%;
 }
 
 #mainContainer{
@@ -67,7 +68,7 @@ section{
 
 #p-id{
     text-align: justify;
-    width: 92%;
+    width: 100%;
 }
 
 #igaleria{
@@ -80,7 +81,8 @@ section{
 }
 
 .carousel-item{
-    width: 80%;
+    width: 100%;
+    height: 140%;
     justify-content: center;
 }
 
@@ -91,9 +93,16 @@ section{
     filter: invert(108%);
 }
 
+.carousel-indicators{
+    filter: invert(108%);
+}
+
+#f1{
+    align-content: center;
+}
+
 aside{
     width: 100;
-    height: 30vh;
     padding-top: 1rem;
     padding-left: 1rem;
     font-size: 1.2rem;
@@ -172,16 +181,16 @@ footer{
         height: auto;
         
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 2fr 1fr 0.1fr;
     }
     section{
-        width: 70vw;       
+        width: 68vw;       
         height: auto;
-        padding: 1rem;
+        gap: 20px;
     }
     
     #p-id{
-        width: 67%;
+        width: 100%;
         text-align: justify;
         font-size: 1.2vw;
     }

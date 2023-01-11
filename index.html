@@ -24,6 +24,12 @@
               <li class="nav-item">
                 <a class="nav-link active" aria-current="page" href="/contacto.html">Contacto</a>
               </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Equipo</a>
+              </li>
             </ul>
             <form class="d-flex" role="search">
               <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
@@ -57,23 +63,23 @@
               </div>
               <div class="carousel-inner">
                 <div class="carousel-item active">
-                  <img src="/Assets/img/puma.jpg" class="d-block w-100 h-100" alt="...">
+                  <img src="/Assets/img/puma 2.png" class="d-block w-100 h-100" alt="..." id="f1">
                   <div class="carousel-caption d-none d-md-block">
                     <h5 class="carousel-text">Pumas</h5>
                     <p class="carousel-text">$21.000</p>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="/Assets/img/converse.jpg" class="d-block w-100 h-100" alt="...">
+                  <img src="/Assets/img/skechers2.png" class="d-block w-100 h-100" alt="..." id="f2">
                   <div class="carousel-caption d-none d-md-block">
-                    <h5 class="carousel-text">Converse</h5>
+                    <h5 class="carousel-text">Skechers</h5>
                     <p class="carousel-text">$28.000</p>
                   </div>
                 </div>
                 <div class="carousel-item">
-                  <img src="/Assets/img/skechers.jpg" class="d-block w-100 h-100" alt="...">
+                  <img src="/Assets/img/nike2.png" class="d-block w-100 h-100" alt="..." id="f3">
                   <div class="carousel-caption d-none d-md-block">
-                    <h5 class="carousel-text">Skechers</h5>
+                    <h5 class="carousel-text">Nike</h5>
                     <p class="carousel-text">$26.000</p>
                   </div>
                 </div>
@@ -88,15 +94,16 @@
             </div>
         </section>
         <Aside>
-          <h2>Dejanos tu comentario</h2>
+          <h2>Buscas una especifica? Dejanos tu comentario</h2>
           <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label">Email address</label>
             <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
           </div>
           <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+            <label for="exampleFormControlTextarea1" class="form-label" id="comment-box">Comentario</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
           </div>
+          <button class="btn btn-primary" type="submit" onclick="mialerta();">Enviar</button>
         </Aside>
     </Main>
     
@@ -111,8 +118,12 @@
         <p class="text-center text-muted">© 2023 Team Kamikaze, Inc</p>
       </footer>
    
-      <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-      <script src="code.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script>
+      function mialerta() {  
+          alert("Tu Mensaje se ha enviado correctamente");
+      } 
+  </script>
 </body>
 
 </html>
