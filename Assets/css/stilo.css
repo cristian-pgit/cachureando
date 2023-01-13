@@ -1,37 +1,23 @@
 *{
     margin: 0;
     padding: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-li{
-    font-family: 'Roboto', sans-serif;
-    color: orange;
-    font-size: 1.3rem;
-    font-weight: 300;
-}
-li{
-    color: orange;
-}
-a{
-    color: orange;
-    font-family: 'Roboto', sans-serif;
-}
-a:hover{
-    color: red;
+   
 }
 
 h2{
     font-family: 'Roboto', sans-serif;
 }
 
+.nav-item{
+    font-family: 'Roboto', sans-serif;
+    color: orange;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
 body {
     background: url(/Assets/img/demo2.png);
-    -webkit-background-size:cover;
-    background-size: cover;
-    background-attachment:fixed;
+    
 }
 
 .contenedor .form .form-header .form-title {

@@ -12,7 +12,7 @@ function envioMsj() {
 function enviCont() {
     var text = document.getElementById("mensaje").value;
     if (text != "") {
-      swal("Team Cachureando", ";) Formulario Enviado!", "success", {button: "Vale!"});
+      swal("Team Cachureando", ";) Mensaje Enviado Enviado!", "success", {button: "Vale!"});
     } else {
       swal("Team Cachureando", "Soci@! le falta ingresar el mensaje", "error");
     }
@@ -20,12 +20,8 @@ function enviCont() {
 
 //Modifica alerta al enviar mensaje en Productos usando Sweetalert
 function compraZa() {
-    var text = document.getElementById("mensaje").value;
-    if (text != "") {
-      swal("Team Cachureando", ";) Formulario Enviado!", "success", {button: "Vale!"});
-    } else {
-      swal("Team Cachureando", "Soci@! le falta ingresar el mensaje", "error");
-    }
+      swal("Team Cachureando", "Compra ingresada en el carrito", "success", {button: "Gracias!"});
+   
 }
 
 //Modifica alerta al enviar mensaje en Encuesta usando Sweetalert

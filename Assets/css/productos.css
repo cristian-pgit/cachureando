@@ -1,5 +1,28 @@
 body{
+    margin: 0;
+    padding: 0;
 
- background-image:url(/Assets/img/demo2.png);
+    background-image:url(/Assets/img/demo2.png);
  
+}
+
+.nav-item{
+    font-family: 'Roboto', sans-serif;
+    color: orange;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.card-text{
+    text-align: justify;
+}
+
+footer{
+    margin: 0;
+    width: 100%;
+    height: auto;
+}
+
+.footer{
+    width: 100%;
 }
