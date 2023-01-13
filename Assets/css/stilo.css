@@ -28,7 +28,7 @@ h2{
 }
 
 body {
-    background: url(/Assets/img/flores.jpg.webp);
+    background: url(/Assets/img/demo2.png);
     -webkit-background-size:cover;
     background-size: cover;
     background-attachment:fixed;
@@ -37,7 +37,7 @@ body {
 .contenedor .form .form-header .form-title {
     font-weight: normal;
     font-family: sans-serif;
-    color: #ff851b;
+    color: blue;
     text-align: center;
     padding: 14px 0;
 }
@@ -47,7 +47,7 @@ body {
 }
 
 .contenedor .form {
-    background: rgba(0,0,0,.6);
+    background:black;
     width: 90%;
     max-width: 650px;
     margin: auto;
@@ -59,7 +59,7 @@ body {
 
 .contenedor .form .form-label {
     display: block;
-    color: #ff851b;
+    color: rgb(64, 195, 218);
     font-size: 16px;
     font-family: Roboto;
     position: relative;
@@ -91,7 +91,7 @@ body {
     width: 100%;
     font-family: Roboto;
     outline: none;
-    background: #ff851b;
+    background: rgb(64, 195, 218);
     font-size: 16px;
     border: none;
     color: #fff;
