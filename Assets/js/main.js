@@ -30,10 +30,5 @@ function compraZa() {
 
 //Modifica alerta al enviar mensaje en Encuesta usando Sweetalert
 function envieEncuesta() {
-    var text = document.getElementById("encuesta").value;
-    if (text != "") {
-      swal("Team Cachureando", ";) Encuesta Enviada!", "success", {button: "Gracias!"});
-    } else {
-      swal("Team Cachureando", "Soci@! le falta ingresar el mensaje", "error");
-    }
+   swal("Team Cachureando", "Soci@! le falta ingresar el mensaje", "error");
 }
