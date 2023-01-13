@@ -1,0 +1,31 @@
+body{
+    background-image: url(/Assets/img/demo2.png);
+    margin: 0;
+    padding: 0;
+    
+}
+
+.contenedor{
+    justify-content: center;
+}
+
+.contenedor-elementos{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+#encuesta{
+    margin: 3rem;
+}
+
+h1{
+    color: lightseagreen;
+}
+
+footer{
+    width:100%;
+    height: auto;
+
+}
