@@ -60,12 +60,6 @@ section{
     padding: 1rem;
 }
 
-.Galeria{
-    height: 35%;
-    width: 35%;
-    margin: 0.4rem;
-}
-
 #p-id{
     text-align: justify;
     width: 100%;
@@ -81,7 +75,7 @@ section{
 }
 
 .carousel-item{
-    width: 100%;
+    width: 90%;
     height: 100vh;
     justify-content: center;
 }
