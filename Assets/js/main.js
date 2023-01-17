@@ -28,3 +28,8 @@ function compraZa() {
 function envioEncuesta() {
    swal("Team Cachureando", "Soci@! le falta ingresar el mensaje", "error");
 }
+
+//Modifica alerta al enviar mensaje en equipo usando Sweetalert
+function contactame() {
+  swal("Team Cachureando", "Soci@! le falta ingresar el mensaje", "error");
+}
