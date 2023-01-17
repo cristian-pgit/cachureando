@@ -1,0 +1,9 @@
+.team{
+    width: 10rem;
+    height: 10rem;
+    border-radius: 50%;
+}
+
+body{
+    background-image: url(Assets\img\demo2.png);
+}
