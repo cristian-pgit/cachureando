@@ -26,3 +26,15 @@ footer{
 .footer{
     width: 100%;
 }
+
+@media screen and (min-width: 1000px){
+    #reloj1{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    #reloj1{
+        display: none;
+    }
+}

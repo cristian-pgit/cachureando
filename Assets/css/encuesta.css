@@ -11,6 +11,13 @@ body{
     
 }
 
+.nav-item{
+    font-family: 'Roboto', sans-serif;
+    color: orange;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
 .main-container{
     display: grid;
     grid-template-columns: 1fr 2fr 1fr;
@@ -44,4 +51,16 @@ h1{
     grid-row-end: 4;
   
 
+}
+
+@media screen and (min-width: 1000px){
+    #reloj1{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    #reloj1{
+        display: none;
+    }
 }

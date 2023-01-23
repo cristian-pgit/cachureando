@@ -1,3 +1,10 @@
+.nav-item{
+    font-family: 'Roboto', sans-serif;
+    color: orange;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
 .team{
     width: 10rem;
     height: 10rem;
@@ -14,4 +21,16 @@ h3{
     padding-bottom: 2rem;
     text-align: center;
 
+}
+
+@media screen and (min-width: 1000px){
+    #reloj1{
+        display: none;
+    }
+}
+
+@media screen and (min-width: 1200px){
+    #reloj1{
+        display: none;
+    }
 }
