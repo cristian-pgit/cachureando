@@ -1,31 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-image: url(/Assets/img/demo2.png);
+    background-size: 100%;
     margin: 0;
     padding: 0;
     
-}
-
-.contenedor{
-    justify-content: center;
-}
-
-.contenedor-elementos{
-    width: 40%;
-    display: flex;
-    flex-direction: column;
     
 }
 
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 3fr 50px ;
+    grid-column-start: 2;
+    
+}
+
+.container-fluid{
+    width: 100%;
+    align-items: center;
+    /* display: flex;
+    flex-direction: column; */
+
+    
+}
+.boton{
+    text-align: center;
+}
 #encuesta{
-    margin: 3rem;
+    margin-left: 12rem;
 }
 
 h1{
     color: lightseagreen;
+    text-align: center;
 }
 
-footer{
-    width:100%;
-    height: auto;
+.footer-container{
+    grid-row-start: 2;
+    grid-row-end: 4;
+  
 
 }
