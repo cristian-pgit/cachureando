@@ -29,11 +29,11 @@ body {
 }
 
 .contenedor .form .form-header .form-title span {
-    color: #fff;
+    color: orange;
 }
 
 .contenedor .form {
-    background:black;
+    background: transparent;
     width: 90%;
     max-width: 650px;
     margin: auto;
@@ -47,13 +47,14 @@ body {
     display: block;
     color: rgb(64, 195, 218);
     font-size: 16px;
+    font-weight: 900;
     font-family: Roboto;
     position: relative;
 
 }
 
 .contenedor .form .form-input, .form-textarea {
-    background: rgba(0,0,0,.7);
+    background: rgba(61, 61, 61, 0.7);
     border: none;
     outline: none;
     border-bottom: 2px solid #ff851b;
@@ -79,6 +80,7 @@ body {
     outline: none;
     background: rgb(64, 195, 218);
     font-size: 16px;
+    font-weight: 900;
     border: none;
     color: #fff;
     padding:15px 0;
@@ -88,6 +90,7 @@ body {
 
 .contenedor .form .btn-submit:hover {
     background: #f29718;
+    
 }
 
 @media screen and (min-width: 1000px){

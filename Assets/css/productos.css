@@ -6,6 +6,25 @@ body{
  
 }
 
+#title{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    font-family: 'Rubik Spray Paint', cursive;
+    font-size: 5rem;
+    font-style: bold;
+    font-weight: 900;
+    background: -webkit-linear-gradient(yellow,red);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        color: tomato;
+        
+}
+
+.bg-light{
+    background: transparent !important;
+}
+
 .nav-item{
     font-family: 'Roboto', sans-serif;
     color: orange;
@@ -15,6 +34,13 @@ body{
 
 .card-text{
     text-align: justify;
+}
+
+.card-body{
+    height: fit-content;
+}
+.card-body img{
+    height: 304px;
 }
 
 footer{
