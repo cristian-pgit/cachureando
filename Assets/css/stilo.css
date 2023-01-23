@@ -1,43 +1,29 @@
 *{
     margin: 0;
     padding: 0;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-li{
-    font-family: 'Roboto', sans-serif;
-    color: orange;
-    font-size: 1.3rem;
-    font-weight: 300;
-}
-li{
-    color: orange;
-}
-a{
-    color: orange;
-    font-family: 'Roboto', sans-serif;
-}
-a:hover{
-    color: red;
+   
 }
 
 h2{
     font-family: 'Roboto', sans-serif;
 }
 
+.nav-item{
+    font-family: 'Roboto', sans-serif;
+    color: orange;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
 body {
-    background: url(/Assets/img/flores.jpg.webp);
-    -webkit-background-size:cover;
-    background-size: cover;
-    background-attachment:fixed;
+    background: url(/Assets/img/demo2.png);
+    
 }
 
 .contenedor .form .form-header .form-title {
     font-weight: normal;
     font-family: sans-serif;
-    color: #ff851b;
+    color: blue;
     text-align: center;
     padding: 14px 0;
 }
@@ -47,7 +33,7 @@ body {
 }
 
 .contenedor .form {
-    background: rgba(0,0,0,.6);
+    background:black;
     width: 90%;
     max-width: 650px;
     margin: auto;
@@ -59,7 +45,7 @@ body {
 
 .contenedor .form .form-label {
     display: block;
-    color: #ff851b;
+    color: rgb(64, 195, 218);
     font-size: 16px;
     font-family: Roboto;
     position: relative;
@@ -91,7 +77,7 @@ body {
     width: 100%;
     font-family: Roboto;
     outline: none;
-    background: #ff851b;
+    background: rgb(64, 195, 218);
     font-size: 16px;
     border: none;
     color: #fff;

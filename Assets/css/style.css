@@ -60,12 +60,6 @@ section{
     padding: 1rem;
 }
 
-.Galeria{
-    height: 35%;
-    width: 35%;
-    margin: 0.4rem;
-}
-
 #p-id{
     text-align: justify;
     width: 100%;
@@ -81,8 +75,8 @@ section{
 }
 
 .carousel-item{
-    width: 100%;
-    height: 140%;
+    width: 90%;
+    height: 100vh;
     justify-content: center;
 }
 
@@ -102,24 +96,21 @@ section{
 }
 
 aside{
-    width: 100;
+    width: 98%;
     padding-top: 1rem;
     padding-left: 1rem;
-    font-size: 1.2rem;
+    font-size: 1.1rem;
     font-family: 'Roboto', sans-serif;
 }
 
-/* #comment-box, #post {
-    border-radius: 5px;
-    padding: 0.5rem;
-} */
-#post:hover{
-    background-color: deeppink;
+aside h4{
+    color: orange;
 }
 
 footer{
     margin: 0;
     width: 100%;
+    height: auto;
 }
 .py-3 {
     padding-bottom: 0rem!important; 
